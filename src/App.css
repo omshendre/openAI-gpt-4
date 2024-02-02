@@ -114,37 +114,28 @@
 .summary_box {
   @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4;
 }
-.footer {
-  background-color: black;
-  padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 
 .footer {
   background-color: black;
-  padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.footer-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
 }
 
 .footer-text {
   @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+  margin-left: 2%;
 }
 
 .footer-links {
   display: flex;
   gap: 1rem;
+  margin-right: 2%;
 }
 
 .footer-link {
